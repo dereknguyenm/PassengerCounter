@@ -17,7 +17,8 @@ function increment()
 
 function save()
 {
-    console.log(count)
+    let countStr = count + " - "
+    saveEl.innerText += countStr
 
 }
 
