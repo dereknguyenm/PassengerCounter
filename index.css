@@ -17,6 +17,15 @@ h2 {
     margin-bottom: 20px;
 }
 
+/* The . infont means its your own class?*/
+.container {
+    background: white;
+    max-width: 80%;
+    margin: auto;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
 button {
     border: none;
     padding-top: 10px;
@@ -28,10 +37,19 @@ button {
     border-radius: 5px;
 }
 
+
+#increment-btn:hover {
+    background-color: rgb(253, 104, 104);
+    color: white;
+}  
 #increment-btn {
     background: darkred;
 }
 
+#save-btn:hover {
+    background-color: rgb(104, 253, 149);
+    color: white;
+}  
 #save-btn {
     background: darkgreen;
 }
